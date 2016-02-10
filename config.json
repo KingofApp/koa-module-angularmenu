@@ -4,6 +4,7 @@
   "description": "Menu desarrollado con angular",
   "documentation": "",
   "type": "A",
+  "icon": "menu",
   "version": "1.0",
   "author": "King of App",
   "showOn": {
@@ -20,7 +21,16 @@
     "src":"http://resources.kingofapp.com/modules/angularmenu/styles.html"
   }],
   "scope": {
-    "path": ""
+    "path": "/menu",
+    "showicons": false
   },
+  "config": [{
+    "type": "checkbox",
+    "key": "showicons",
+    "templateOptions": {
+      "description": "Show menu icons",
+      "label": "Menu icons"
+    }
+  }],
   "descriptionShort": "Angular menu"
 }

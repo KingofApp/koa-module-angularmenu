@@ -1,11 +1,11 @@
 <div class='angularmenu' ng-controller="Menu1Ctrl">
 
   <div class='statusBar'>
-    <p><button ng-click="showLeft($event)">{{ "angularmenu.sidebar" | translate }}</button>  {{toolbar.title}}</p>
+    <p><button ng-click="showLeft($event)"><koa-icon icon="{{angularmenu.icon}}"></koa-icon></button>  {{toolbar.title}}</p>
   </div>
 
   <menu visible="leftVisible" alignment="left">
-    <menu-item ng-repeat="(key, value) in menu"><a ng-href="{{value.url}}">{{value.text}}</a></menu-item>
+    <menu-item ng-repeat="(key, value) in menu"><a ng-href="{{value.url}}"><koa-icon icon="{{value.icon}}"></koa-icon>{{value.text}}</a></menu-item>
   </menu>
 
   <!-- moduleIdentifier + Template -->

@@ -32,6 +32,7 @@ function Menu1Ctrl($scope, $rootScope, $location, structureService) {
           var slug = value.name.replace(trExp, '-');
           menu.push({
             text: value.name,
+            icon: getIcon(value.icon),
             url: '#' + key,
             class: slug
           });
@@ -39,6 +40,12 @@ function Menu1Ctrl($scope, $rootScope, $location, structureService) {
       });
     });
     return menu;
+  }
+  function getIcon(icon) {
+    if($scope.angularmenu.modulescope.showicons){
+      return icon;
+    }
+    return "";
   }
   $rootScope.$on("documentClicked", function _close() {
       $scope.$apply(function() {
