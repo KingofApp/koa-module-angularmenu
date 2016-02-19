@@ -17,7 +17,7 @@
   "view": "http://resources.kingofapp.com/modules/angularmenu/index.html",
   "files": ["http://resources.kingofapp.com/modules/angularmenu/controller.js", "http://resources.kingofapp.com/modules/angularmenu/directive.js"],
   "libs": [{
-    "bower": "",
+    "bower": "angularmenu",
     "src":"http://resources.kingofapp.com/modules/angularmenu/styles.html"
   }],
   "scope": {
