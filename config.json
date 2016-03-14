@@ -1,33 +1,44 @@
 {
-  "name": "Angular Menu Module",
-  "identifier": "angularmenu",
-  "description": "Menu desarrollado con angular",
-  "documentation": "",
-  "type": "A",
-  "icon": "menu",
-  "version": "1.0",
-  "author": "King of App",
-  "showOn": {
-    "menu": false,
-    "market": true,
-    "dragDrop": true
+  "name" : "Angular Menu",
+  "identifier" : "angularmenu",
+  "description" : "Menú basado en los praámetros de diseño de iOs. Perfecto para una aplicación de Apple pero compatible con el resto de distemas operativos. Cargalo en tu App y llénalo de contenido con mos módulos disponibles en el market.",
+  "icon" : "menu",
+  "documentation" : "",
+  "type" : "A",
+  "canContain" : true,
+  "version" : "1.0",
+  "author" : "King of App",
+  "category" : [
+      "others"
+  ],
+  "price" : 0,
+  "subscription": false,
+  "platforms" : [
+      "android",
+      "ios",
+      "windows"
+  ],
+  "view" : "modules/angularmenu/index.html",
+  "files" : [
+      "modules/angularmenu/controller.js"
+  ],
+  "scope" : {
+      "path" : "path"
   },
-  "requires": [],
-  "canContain": true,
-  "view": "http://resources.kingofapp.com/modules/angularmenu/index.html",
-  "files": ["http://resources.kingofapp.com/modules/angularmenu/controller.js", "http://resources.kingofapp.com/modules/angularmenu/directive.js", "http://resources.kingofapp.com/modules/angularmenu/styles.html"],
-  "libs": [],
-  "scope": {
-    "path": "/menu",
-    "showicons": false
+  "showOn" : {
+      "menu" : false,
+      "market" : false,
+      "dragDrop" : false
   },
-  "config": [{
-    "type": "checkbox",
-    "key": "showicons",
-    "templateOptions": {
-      "description": "Show menu icons",
-      "label": "Menu icons"
-    }
-  }],
-  "descriptionShort": "Angular menu"
+  "images" : {
+      "screenshots" : [
+          "./images/modules/angularmenu_screenshot01.png",
+          "./images/modules/angularmenu_screenshot02.png"
+      ],
+      "popover" : "./images/modules/angularmenu.png",
+      "banner" : "./images/modules/angularmenu_banner.png",
+      "logo" : "./images/modules/angularmenu_logo.png",
+      "list" : "./images/modules/angularmenu.png"
+  },
+  "descriptionShort" : "Menú basado en los parámetros de diseño de iOS. ¡Llénalo de contenidos!"
 }
