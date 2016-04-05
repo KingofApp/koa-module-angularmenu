@@ -1,0 +1,13 @@
+{
+  "name": "koapp-module-angularmenu",
+  "authors": "King of App",
+  "description": "angularmenu module for King of App",
+  "keywords": [
+    "kingofapp",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": "http://kingofapp.com",
+  "private": true,
+  "dependencies": {}
+}
