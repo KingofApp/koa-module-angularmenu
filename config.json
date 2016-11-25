@@ -2,7 +2,7 @@
   "name": "Angular Menu",
   "identifier": "angularmenu",
   "type": "A",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "King of App",
   "category": [
     "menu"
@@ -25,8 +25,8 @@
     "es-ES" : "Menú basado en los parámetros de diseño de iOS. ¡Llénalo de contenidos!"
   },
   "documentation": {
-    "en-US" : "",
-    "es-ES" : ""
+    "es-ES": "modules/angularmenu/documentation/es_ES.md",
+    "en-US": "modules/angularmenu/documentation/en_US.md"
   },
   "images" : {
     "list" : "modules/angularmenu/images/list.png",
