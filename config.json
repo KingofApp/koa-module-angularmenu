@@ -17,12 +17,12 @@
   "canContain": true,
   "icon": "menu",
   "description": {
-    "en-US" : "",
-    "es-ES" : "Menú basado en los praámetros de diseño de iOs. Perfecto para una aplicación de Apple pero compatible con el resto de distemas operativos. Cargalo en tu App y llénalo de contenido con mos módulos disponibles en el market."
+    "en-US" : "Unleash your creativity and design your own Apple-styled with this menu based on the iOS. Use it for your App and fill it with content with the modules available in the market. It is also completely compatible with other mobile devices.",
+    "es-ES" : "Desata tu creatividad y diseña tu propia aplicación de Apple con este menú basado en los parámetros de iOs. Cárgalo en tu App y llénalo de contenido con los módulos disponibles en el mercado. Si lo deseas para otro desarrollador móvil, es completamente compatible."
   },
   "descriptionShort": {
-    "en-US" : "",
-    "es-ES" : "Menú basado en los parámetros de diseño de iOS. ¡Llénalo de contenidos!"
+    "en-US" : "Unleash your creativity and design your own Apple-styled app with this menu!",
+    "es-ES" : "Desata tu creatividad y diseña tu propia aplicación de Apple con este menú!"
   },
   "documentation": {
     "es-ES": "modules/angularmenu/documentation/es_ES.md",
