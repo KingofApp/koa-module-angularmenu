@@ -1,0 +1,20 @@
+{
+  "name": "angularmenu",
+  "version": "1.0.3",
+  "description": "Unleash your creativity and design your own Apple-styled with this menu based on the iOS. Use it for your App and fill it with content with the modules available in the market. It is also completely compatible with other mobile devices.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp e2e",
+    "start": "gulp"
+  },
+  "devDependencies": {},
+  "author": "King of app",
+  "license": "MIT",
+  "keywords": [
+    "koapp",
+    "koapp module",
+    "king of app"
+  ]
+}
