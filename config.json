@@ -1,56 +1,56 @@
 {
-  "name": "Angular Menu",
-  "identifier": "angularmenu",
-  "type": "A",
-  "version": "1.0.4",
-  "author": "King of App",
-  "category": [
-    "menu"
-  ],
-  "platforms" : [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": true,
-  "icon": "menu",
-  "description": {
-    "en-US" : "Unleash your creativity and design your own Apple-styled with this menu based on the iOS. Use it for your App and fill it with content with the modules available in the market. It is also completely compatible with other mobile devices.",
-    "es-ES" : "Desata tu creatividad y diseña tu propia aplicación de Apple con este menú basado en los parámetros de iOs. Cárgalo en tu App y llénalo de contenido con los módulos disponibles en el mercado. Si lo deseas para otro desarrollador móvil, es completamente compatible."
-  },
-  "descriptionShort": {
-    "en-US" : "Unleash your creativity and design your own Apple-styled app with this menu!",
-    "es-ES" : "Desata tu creatividad y diseña tu propia aplicación de Apple con este menú!"
-  },
-  "documentation": {
-    "es-ES": "modules/angularmenu/documentation/es_ES.md",
-    "en-US": "modules/angularmenu/documentation/en_US.md"
-  },
-  "images" : {
-    "list" : "modules/angularmenu/images/list.png",
-    "screenshots" : [
-      "modules/angularmenu/images/screenshot01.png",
-      "modules/angularmenu/images/screenshot02.png"
+    "name": "Angular Menu",
+    "identifier": "angularmenu",
+    "type": "A",
+    "version": "1.0.5",
+    "author": "King of App",
+    "category": [
+        "menu"
     ],
-    "popover" : "modules/angularmenu/images/popover.png",
-    "banner" : "modules/angularmenu/images/banner.png",
-    "logo" : "modules/angularmenu/images/logo.png"
-  },
-  "showOn": {
-    "menu": false,
-    "market": false,
-    "dragDrop": false
-  },
-  "requires": [],
-  "view": "modules/angularmenu/index.html",
-  "files": [
-    "modules/angularmenu/controller.js",
-    "modules/angularmenu/styles.html"
-  ],
-  "scope": {
-    "path": "/angularmenu"
-  },
-  "config": []
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "price": 0,
+    "subscription": false,
+    "canContain": true,
+    "icon": "menu",
+    "description": {
+        "en-US": "Unleash your creativity and design your own Apple-styled with this menu based on the iOS. Use it for your App and fill it with content with the modules available in the market. It is also completely compatible with other mobile devices.",
+        "es-ES": "Desata tu creatividad y diseña tu propia aplicación de Apple con este menú basado en los parámetros de iOs. Cárgalo en tu App y llénalo de contenido con los módulos disponibles en el mercado. Si lo deseas para otro desarrollador móvil, es completamente compatible."
+    },
+    "descriptionShort": {
+        "en-US": "Unleash your creativity and design your own Apple-styled app with this menu!",
+        "es-ES": "Desata tu creatividad y diseña tu propia aplicación de Apple con este menú!"
+    },
+    "documentation": {
+        "es-ES": "modules/angularmenu/documentation/es_ES.md",
+        "en-US": "modules/angularmenu/documentation/en_US.md"
+    },
+    "images": {
+        "list": "modules/angularmenu/images/list.png",
+        "screenshots": [
+            "modules/angularmenu/images/screenshot01.png",
+            "modules/angularmenu/images/screenshot02.png"
+        ],
+        "popover": "modules/angularmenu/images/popover.png",
+        "banner": "modules/angularmenu/images/banner.png",
+        "logo": "modules/angularmenu/images/logo.png"
+    },
+    "showOn": {
+        "menu": false,
+        "market": false,
+        "dragDrop": false
+    },
+    "requires": [],
+    "view": "modules/angularmenu/index.html",
+    "files": [
+        "modules/angularmenu/controller.js",
+        "modules/angularmenu/styles.html"
+    ],
+    "scope": {
+        "path": "/angularmenu"
+    },
+    "config": []
 }
