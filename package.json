@@ -1,6 +1,6 @@
 {
     "name": "angularmenu",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Unleash your creativity and design your own Apple-styled with this menu based on the iOS. Use it for your App and fill it with content with the modules available in the market. It is also completely compatible with other mobile devices.",
     "directories": {
         "test": "test"
@@ -11,7 +11,8 @@
         "versioncheck": "gulp versioncheck"
     },
     "devDependencies": {
-        "gutil-color-log": "^1.0.2"
+        "gutil-color-log": "^1.0.2",
+        "pre-commit": "^1.1.2"
     },
     "author": "Koapp <koappnpmpublisher@gmail.com> (http://www.kingofapp.com)",
     "license": "MIT",
